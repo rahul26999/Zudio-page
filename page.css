@@ -11,6 +11,7 @@ body{
       }      
 }
 
+/* main-Navbar */
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -48,7 +49,6 @@ body{
     left: 0;
     padding: 20px;
     color:white;
-    display: none;
 }
 
 .side-navbar-link{
@@ -65,7 +65,7 @@ body{
 }
 
 
-/* Media Query */
+/* Media Query -- used when the page gets size lesser */
 @media screen and (max-width:700px) {
     .navbar-menu-toggle{
         display: block; 
