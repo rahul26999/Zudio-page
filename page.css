@@ -85,6 +85,28 @@ body{
     cursor: pointer;
 }
 
+.service{
+    padding: 20px;
+}
+
+.service-container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.service-container-2 div{
+    background-color: #f2f4f7;
+    border-radius: 5px;
+    padding: 10px;
+}
 
 /* Media Query -- used when the page gets size lesser */
 @media screen and (max-width:700px) {
@@ -96,5 +118,11 @@ body{
     }
     .header-image{
         display: none;
+    }
+    .service-container-1{
+        display: none;
+    }
+    .service-container-2{
+        flex-direction: column;
     }    
 }
