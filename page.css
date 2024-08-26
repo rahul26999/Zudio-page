@@ -46,7 +46,7 @@ body{
     height: 100%;
     position: fixed;
     top: 0;
-    left: 0;
+    left: -60%;
     padding: 20px;
     color:white;
     transition: 2s;
@@ -65,6 +65,26 @@ body{
     text-decoration: underline;
 }
 
+/*header*/
+
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.header-button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
 
 /* Media Query -- used when the page gets size lesser */
 @media screen and (max-width:700px) {
@@ -72,6 +92,9 @@ body{
         display: block; 
     }
     .navbar-links{
+        display: none;
+    }
+    .header-image{
         display: none;
     }    
 }
