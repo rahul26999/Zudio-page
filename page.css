@@ -85,6 +85,8 @@ body{
     cursor: pointer;
 }
 
+
+/*Service side*/
 .service{
     padding: 20px;
 }
@@ -106,6 +108,30 @@ body{
     background-color: #f2f4f7;
     border-radius: 5px;
     padding: 10px;
+}
+
+.new-arrival{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.new-arrival-container{
+    position: relative;
+    flex-basis: 20%;
+}
+
+.new-arrival button{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 30%;
 }
 
 /* Media Query -- used when the page gets size lesser */
