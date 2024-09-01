@@ -134,6 +134,42 @@ body{
     left: 30%;
 }
 
+.news{
+    display: flex;
+    background-color: rgb(237, 237, 254);
+    padding: 10px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news input{
+    padding: 11px;
+    width: 80vw;
+    margin-bottom: 10px;
+    border: solid black 3px;
+}
+
+.news button{
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: rgb(14, 14, 14);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 20px;
+    padding: 40px;
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
 /* Media Query -- used when the page gets size lesser */
 @media screen and (max-width:700px) {
     .navbar-menu-toggle{
